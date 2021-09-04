@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <title>500</title>
+</head>
+<body>
+<!--导航-->
+<nav class="ui inverted attached segment m-padded-tb-mini m-shadown-small" th:replace="_fragments :: menu(0)">
+</nav>
+<br>
+<br>
+<br>
+<div class="m-container-small m-padded-tb-massive">
+    <div class="ui error message m-padded-tb-larges">
+        <h1>500</h1>
+        <p style="font-size: 16px">对不起，彬哥没有你内部出现错误了</p>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer th:replace="_fragments :: footer" class="ui inverted vertical segment m-padded-tb-big">
+    <div class="ui center aligned container">
+        <div class="ui stackable inverted divided grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="../static/images/meWechat.jpg" th:src="@{/images/meWechat.jpg}"  class="ui rounded image" alt="" style="width: 110px">
+                    </div>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header  m-font-spaced" style="font-weight: normal">最新博客</h4>
+                <div class="ui inverted link list m-font-thin">
+                    <a href="#" class="item">笔记01</a>
+                    <a href="#" class="item">笔记01</a>
+                    <a href="#" class="item">笔记01</a>
+                </div>
+            </div>
+
+            <div class="five wide column">
+                <h4 class="ui inverted header" style="font-weight: normal">Blog介绍</h4>
+                <p class="m-font-thin m-font-spaced m-opacity-mini ">修炼一途，乃窃阴阳，夺造化，转涅槃，握生死，掌轮回。 武之极，破苍穹，动乾坤！</p>
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header  m-font-spaced" style="font-weight: normal">联系我</h4>
+                <div class="ui inverted  list" style="text-align: left;margin-left: 30px">
+                    <div class="item">
+                        <img src="../static/images/qq.png" th:src="@{/images/qq.png}" style="width: 20px">
+                        <span class="m-font-thin m-opacity-mini"
+                              style="font-size: 14px">&nbsp;&nbsp;QQ：2251073096</span>
+                    </div>
+                    <div class="item">
+                        <img src="../static/images/email.png" th:src="@{/images/email.png}" style="width: 18px">
+                        <span class="m-opacity-mini" style="font-size: 14px">&nbsp;&nbsp;Eamil：2251073096@qq.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui inverted section divider"></div>
+        <p class="m-font-thin m-font-spaced m-opacity-tiny" style="font-size: 13px">Copyright © 2021 - 2022 ZhouChB All
+            Rights Reserved V.1.0</p>
+    </div>
+</footer>
+</body>
+</html>

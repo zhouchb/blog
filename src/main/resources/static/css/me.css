@@ -1,0 +1,227 @@
+body{
+    /*background: url("../images/bg.png");*/
+    background: url("../images/subtle_white.png");
+}
+.m-padded-mini{
+    padding: 0.3em !important;
+}
+.m-padded-small{
+    padding: 0.5em !important;
+}
+.m-padded-tb-mini{
+    padding-top: 0.1em !important;
+    padding-bottom: 0.1em !important;
+}
+.m-padded-tb-tiny{
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+.m-padded-tb-small{
+     padding-top: 0.5em !important;
+     padding-bottom: 0.5em !important;
+ }
+.m-padded-tb{
+      padding-top: 1em !important;
+      padding-bottom: 1em !important;
+  }
+
+.m-padded-tb-medim{
+    padding-top: 1.5em !important;
+    padding-bottom: 1.5em !important;
+}
+.m-padded-tb-large{
+       padding-top: 2em !important;
+       padding-bottom: 2em !important;
+   }
+.m-padded-tb-larges{
+    padding-top: 2.5em !important;
+    padding-bottom: 2.5em !important;
+}
+.m-padded-tb-bottom{
+    padding-bottom: 2.5em !important;
+}
+.m-padded-tb-big{
+        padding-top: 3em !important;
+        padding-bottom: 3em !important;
+    }
+.m-padded-tb-huge{
+         padding-top: 4em !important;
+         padding-bottom: 4em !important;
+     }
+.m-padded-tb-massive{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+
+.m-padded-lr{
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+.m-padded-lr-small{
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+.m-padded-lr-medium{
+    padding-left: 1.5em !important;
+    padding-right: 1.5em !important;
+}
+/*=================font===================*/
+.m-font{
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 0.8px !important;
+}
+.m-font-thin-normal{
+    font-weight: 350 !important;
+}
+.m-font-thin{
+    font-weight: lighter !important;
+}
+.m-font-thin-bold{
+    font-weight: bold !important;
+}
+.m-font-size{
+    font-size: 13px !important;
+}
+.m-font-size-small{
+    font-size: 8px !important;
+}
+/*字间距*/
+.m-font-spaced{
+    letter-spacing: 1px !important;
+}
+/*行间距*/
+.m-font-lined{
+    line-height: 1.8 !important;
+}
+.m-opacity-small{
+    opacity: 0.9 !important;
+}
+.m-opacity-mini{
+    opacity: 0.8 !important;
+}
+.m-opacity-tiny{
+    opacity: 0.6 !important;
+}
+/*===============display===================*/
+.m-inline-block{
+    display: inline-block;
+}
+/*======鼠标点击颜色======*/
+.m-mouse:hover, .m-mouse:active{
+color: #00c4ff !important;
+}
+/*==========container===========*/
+.m-container{
+    max-width: 74em !important; ;
+    margin: auto !important;  /*水平方向的居中*/
+}
+.m-container-small{
+    max-width: 60em !important; ;
+    margin: auto !important;  /*水平方向的居中*/
+}
+.m-container-large{
+    max-width: 65em !important; ;
+    margin: auto !important;  /*水平方向的居中*/
+}
+.m-message-width{
+    max-width: 56em !important; ;
+    margin: auto !important;  /*水平方向的居中*/
+}
+/*=============margin=========*/
+.m-margin-tb-mini{
+    margin-top: 0.1em !important;
+    margin-bottom: 0.1em !important;
+}
+.m-margin-tb-tiny{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+.m-margin-tb-small{
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+    margin-right: 0.5em!important;
+}
+.m-margin-tb{
+    margin-top: 0.4em !important;
+    margin-bottom: 0.4em !important;
+    margin-right: 0.8em!important;
+}
+.m-margin-top-large{
+    margin-top: 2em !important;
+}
+.m-margin-top-small{
+    margin-top: 1.5em !important;
+}
+.m-margin-right{
+    margin-right: 1em !important;
+}
+.m-margin-left{
+    margin-left: 1em !important;
+}
+.m-margin-right-medium{
+    margin-right: 2em !important;
+}
+.m-margin-right-big{
+    margin-right: 4em !important;
+}
+.m-margin-left-big{
+    margin-left: 4em !important;
+}
+.m-margin-bottom{
+    margin-bottom:0.6em !important;
+}
+/*=======绝对位置=======*/
+.m-fixed {
+    position: fixed !important;
+}
+.m-right-bottom {
+    bottom: 20px !important;
+    right: 0 !important;
+}
+/*========font color===========*/
+.m-font-black{
+    color: #333 !important;
+}
+.test{
+    color: red !important;
+}
+.font-blue{
+    background: #00a1d6 !important;
+    color: #00a1d6 !important;
+}
+.buton-background{
+    background: #f7f9fa !important;
+}
+.m-right-top{
+    position: absolute;
+    top: 0;
+    right: 1em;
+}
+/*导航栏阴影*/
+.m-shadown-small{
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2) !important;
+}
+
+.m-mobile-show{
+    display: none !important;
+}
+@media screen and (max-width: 768px){
+    .m-mobile-hide {
+        display: none !important;
+    }
+    .m-mobile-show {
+        display: block !important;
+    }
+    .m-padded-lr {
+        padding-left: 0em !important;
+        padding-right: 0em !important;
+    }
+    .m-mobile-lr-clear {
+        padding-left: 0em !important;
+        padding-right: 0em !important;
+    }
+    .m-mobile-wide {
+        width: 100% !important;
+    }
+}

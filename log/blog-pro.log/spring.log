@@ -1,0 +1,4 @@
+2021-09-02 09:18:46.740  INFO 10660 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 10660 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-02 09:18:46.743  INFO 10660 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: pro
+2021-09-02 09:18:47.244  WARN 10660 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zhouchb.blog]' package. Please check your configuration.
+2021-09-02 09:18:47.920  INFO 10660 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 1.583 seconds (JVM running for 2.361)
