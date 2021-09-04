@@ -3,6 +3,7 @@ package com.zhouchb.blog.service.impl;
 import com.zhouchb.blog.bean.User;
 import com.zhouchb.blog.dao.UserRepository;
 import com.zhouchb.blog.service.UserService;
+import com.zhouchb.blog.util.MD5Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +19,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User getNameAndPassword(String username, String password) {
-        User nameAndPasswordDao = userRepository.getNameAndPasswordDao(username, password);
+        User nameAndPasswordDao = userRepository.getNameAndPasswordDao(username, MD5Utils.code(password));
         return nameAndPasswordDao;
     }
 }

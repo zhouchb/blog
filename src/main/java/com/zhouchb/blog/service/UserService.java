@@ -1,6 +1,7 @@
 package com.zhouchb.blog.service;
 
 import com.zhouchb.blog.bean.User;
+import com.zhouchb.blog.util.MD5Utils;
 
 /**
  * @Author Zhouchb
@@ -8,5 +9,6 @@ import com.zhouchb.blog.bean.User;
  * @Description
  */
 public interface UserService {
-    public User getNameAndPassword(String username,String password);
+    public User getNameAndPassword(String username, String password);
+
 }

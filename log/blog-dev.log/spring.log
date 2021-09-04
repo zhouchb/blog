@@ -1816,3 +1816,729 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2021-09-04 15:20:51.596  INFO 16848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2021-09-04 15:20:51.598  INFO 16848 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
 2021-09-04 15:20:51.601  INFO 16848 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-09-04 15:43:54.125  INFO 16848 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-09-04 15:43:54.127  INFO 16848 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-09-04 15:43:54.236  INFO 16848 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16848 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 15:43:54.236  INFO 16848 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 15:43:54.398  INFO 16848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 15:43:54.398  INFO 16848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 15:43:54.399  INFO 16848 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 15:43:54.410  INFO 16848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 15:43:54.410  INFO 16848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 172 ms
+2021-09-04 15:43:54.540  INFO 16848 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 15:43:54.641  INFO 16848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 15:43:54.648  INFO 16848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 15:43:54.650  INFO 16848 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.431 seconds (JVM running for 2492.914)
+2021-09-04 15:43:54.650  INFO 16848 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 15:48:34.070  INFO 16848 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16848 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 15:48:34.071  INFO 16848 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 15:48:34.233  INFO 16848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 15:48:34.233  INFO 16848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 15:48:34.233  INFO 16848 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 15:48:34.244  INFO 16848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 15:48:34.244  INFO 16848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 172 ms
+2021-09-04 15:48:34.378  INFO 16848 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 15:48:34.480  INFO 16848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 15:48:34.487  INFO 16848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 15:48:34.489  INFO 16848 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.437 seconds (JVM running for 2772.753)
+2021-09-04 15:48:34.489  INFO 16848 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 15:48:36.186  INFO 16848 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16848 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 15:48:36.186  INFO 16848 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 15:48:36.332  INFO 16848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 15:48:36.333  INFO 16848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 15:48:36.333  INFO 16848 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 15:48:36.343  INFO 16848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 15:48:36.344  INFO 16848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 157 ms
+2021-09-04 15:48:36.468  INFO 16848 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 15:48:36.565  INFO 16848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 15:48:36.571  INFO 16848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 15:48:36.574  INFO 16848 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.402 seconds (JVM running for 2774.838)
+2021-09-04 15:48:36.574  INFO 16848 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 15:48:43.706  INFO 14212 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 14212 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 15:48:43.707  INFO 14212 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 15:48:43.735  INFO 14212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-04 15:48:43.735  INFO 14212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-04 15:48:44.460  INFO 14212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 15:48:44.466  INFO 14212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 15:48:44.466  INFO 14212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 15:48:44.513  INFO 14212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 15:48:44.513  INFO 14212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 777 ms
+2021-09-04 15:48:44.924  INFO 14212 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 15:48:45.138  INFO 14212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 15:48:45.160  INFO 14212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 15:48:45.167  INFO 14212 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 1.725 seconds (JVM running for 2.347)
+2021-09-04 15:53:56.201  INFO 14212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 15:53:56.201  INFO 14212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 15:53:56.202  INFO 14212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-04 15:54:03.181  INFO 14212 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-04 15:54:03.259  INFO 14212 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-04 16:19:16.997  INFO 14212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-04 16:19:17.002  INFO 14212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-04 16:19:20.132  INFO 14420 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 14420 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 16:19:20.134  INFO 14420 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 16:19:20.162  INFO 14420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-04 16:19:20.162  INFO 14420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-04 16:19:20.872  INFO 14420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 16:19:20.877  INFO 14420 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 16:19:20.878  INFO 14420 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 16:19:20.924  INFO 14420 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 16:19:20.924  INFO 14420 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 762 ms
+2021-09-04 16:19:21.342  INFO 14420 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 16:19:21.553  INFO 14420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 16:19:21.575  INFO 14420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 16:19:21.582  INFO 14420 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 1.709 seconds (JVM running for 2.33)
+2021-09-04 16:19:26.019  INFO 14420 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 16:19:26.019  INFO 14420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 16:19:26.019  INFO 14420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 16:19:26.045  INFO 14420 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-04 16:19:26.113  INFO 14420 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-04 16:22:39.425  INFO 14420 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-04 16:22:39.430  INFO 14420 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-04 16:22:41.530  INFO 15288 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 15288 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 16:22:41.532  INFO 15288 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 16:22:41.574  INFO 15288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-04 16:22:41.574  INFO 15288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-04 16:22:42.419  INFO 15288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 16:22:42.425  INFO 15288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 16:22:42.425  INFO 15288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 16:22:42.486  INFO 15288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 16:22:42.486  INFO 15288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 911 ms
+2021-09-04 16:22:42.942  INFO 15288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 16:22:43.184  INFO 15288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 16:22:43.208  INFO 15288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 16:22:43.216  INFO 15288 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 2.14 seconds (JVM running for 3.016)
+2021-09-04 16:22:49.259  INFO 15288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 16:22:49.260  INFO 15288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 16:22:49.260  INFO 15288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 16:27:53.556  INFO 15288 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 15288 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 16:27:53.556  INFO 15288 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 16:27:53.755  INFO 15288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 16:27:53.755  INFO 15288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 16:27:53.755  INFO 15288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 16:27:53.778  INFO 15288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 16:27:53.778  INFO 15288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 219 ms
+2021-09-04 16:27:53.946  INFO 15288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 16:27:54.050  INFO 15288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 16:27:54.057  INFO 15288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 16:27:54.060  INFO 15288 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.532 seconds (JVM running for 313.861)
+2021-09-04 16:27:54.061  INFO 15288 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 16:27:55.805  INFO 15288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 16:27:55.805  INFO 15288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 16:27:55.806  INFO 15288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-04 16:35:14.049  INFO 15288 --- [http-nio-8080-exec-8] com.zhouchb.blog.aspect.LogAspect        : 我是前置通知
+2021-09-04 16:35:14.051  INFO 15288 --- [http-nio-8080-exec-8] com.zhouchb.blog.aspect.LogAspect        : 切面AspectLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='class:com.zhouchb.blog.Controller.IndexController,method:toIndex', args=[]}
+2021-09-04 16:35:14.057  INFO 15288 --- [http-nio-8080-exec-8] com.zhouchb.blog.aspect.LogAspect        : result（返回）的值为index
+2021-09-04 16:40:32.943  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 12336 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 16:40:32.945  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 16:40:32.973  INFO 12336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-04 16:40:32.973  INFO 12336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-04 16:40:33.698  INFO 12336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 16:40:33.703  INFO 12336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 16:40:33.704  INFO 12336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 16:40:33.750  INFO 12336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 16:40:33.750  INFO 12336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 777 ms
+2021-09-04 16:40:34.161  INFO 12336 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 16:40:34.369  INFO 12336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 16:40:34.391  INFO 12336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 16:40:34.397  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 1.723 seconds (JVM running for 2.284)
+2021-09-04 16:40:39.811  INFO 12336 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 16:40:39.811  INFO 12336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 16:40:39.811  INFO 12336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 16:42:54.357  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 12336 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 16:42:54.357  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 16:42:54.623  INFO 12336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 16:42:54.623  INFO 12336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 16:42:54.624  INFO 12336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 16:42:54.640  INFO 12336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 16:42:54.640  INFO 12336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 280 ms
+2021-09-04 16:42:54.885  INFO 12336 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 16:42:55.025  INFO 12336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 16:42:55.034  INFO 12336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 16:42:55.036  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.715 seconds (JVM running for 142.923)
+2021-09-04 16:42:55.038  INFO 12336 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 16:42:55.974  INFO 12336 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 16:42:55.974  INFO 12336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 16:42:55.975  INFO 12336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-04 16:43:23.310  INFO 12336 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-04 16:43:23.389  INFO 12336 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-04 16:45:24.372  INFO 12336 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-04 16:45:24.378  INFO 12336 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-04 16:45:24.530  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 12336 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 16:45:24.530  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 16:45:24.760  INFO 12336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 16:45:24.760  INFO 12336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 16:45:24.760  INFO 12336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 16:45:24.775  INFO 12336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 16:45:24.775  INFO 12336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 243 ms
+2021-09-04 16:45:25.020  INFO 12336 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 16:45:25.196  INFO 12336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 16:45:25.208  INFO 12336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 16:45:25.212  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.706 seconds (JVM running for 293.098)
+2021-09-04 16:45:25.213  INFO 12336 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 16:45:27.007  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 12336 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 16:45:27.007  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 16:45:27.186  INFO 12336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 16:45:27.186  INFO 12336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 16:45:27.187  INFO 12336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 16:45:27.200  INFO 12336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 16:45:27.200  INFO 12336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 192 ms
+2021-09-04 16:45:27.348  INFO 12336 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 16:45:27.471  INFO 12336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 16:45:27.479  INFO 12336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 16:45:27.482  INFO 12336 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.495 seconds (JVM running for 295.368)
+2021-09-04 16:45:27.483  INFO 12336 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 16:45:31.877  INFO 12336 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 16:45:31.877  INFO 12336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 16:45:31.878  INFO 12336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 16:46:32.047  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 16:46:32.049  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 16:46:32.077  INFO 16620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-04 16:46:32.077  INFO 16620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-04 16:46:32.802  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 16:46:32.807  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 16:46:32.808  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 16:46:32.877  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 16:46:32.878  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 801 ms
+2021-09-04 16:46:33.303  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 16:46:33.508  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 16:46:33.530  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 16:46:33.537  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 1.748 seconds (JVM running for 2.301)
+2021-09-04 16:46:57.330  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 16:46:57.331  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 16:46:57.331  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 16:48:19.684  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 16:48:19.685  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 16:48:19.870  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 16:48:19.871  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 16:48:19.871  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 16:48:19.883  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 16:48:19.884  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 197 ms
+2021-09-04 16:48:20.027  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 16:48:20.136  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 16:48:20.143  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 16:48:20.145  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.482 seconds (JVM running for 108.909)
+2021-09-04 16:48:20.146  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 16:48:21.006  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 16:48:21.007  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 16:48:21.008  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-04 16:51:07.054 ERROR 16620 --- [http-nio-8080-exec-6] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-6] Exception processing template "admin/login": An error happened during template parsing (template: "class path resource [templates/admin/login.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/login.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366) [thymeleaf-spring5-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190) [thymeleaf-spring5-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397) [spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142) [spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) [spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) [spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) [tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) [tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: org.attoparser.ParseException: Could not parse as expression: "{session.sessionMessage}" (template: "admin/login" - line 53, col 116)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "{session.sessionMessage}" (template: "admin/login" - line 53, col 116)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 50 common frames omitted
+
+2021-09-04 16:51:07.056 ERROR 16620 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/login.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "{session.sessionMessage}" (template: "admin/login" - line 53, col 116)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366) ~[thymeleaf-spring5-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring5-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2021-09-04 17:01:00.121  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:01:00.121  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:01:00.299  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:01:00.300  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:01:00.300  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:01:00.313  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:01:00.313  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 190 ms
+2021-09-04 17:01:00.459  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:01:00.569  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:01:00.576  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:01:00.578  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.479 seconds (JVM running for 869.342)
+2021-09-04 17:01:00.579  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:01:02.280  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:01:02.280  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:01:02.436  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:01:02.436  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:01:02.436  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:01:02.449  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:01:02.449  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 167 ms
+2021-09-04 17:01:02.582  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:01:02.682  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:01:02.688  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:01:02.690  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.426 seconds (JVM running for 871.454)
+2021-09-04 17:01:02.691  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:01:02.750  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 17:01:02.750  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 17:01:02.751  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-04 17:01:06.392  INFO 16620 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-04 17:01:06.458  INFO 16620 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-04 17:03:50.237  INFO 16620 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-04 17:03:50.242  INFO 16620 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-04 17:03:50.352  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:03:50.352  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:03:50.516  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:03:50.517  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:03:50.517  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:03:50.528  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:03:50.528  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
+2021-09-04 17:03:50.658  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:03:50.756  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:03:50.762  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:03:50.764  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.426 seconds (JVM running for 1039.527)
+2021-09-04 17:03:50.765  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:03:53.503  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 17:03:53.503  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 17:03:53.503  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 17:03:56.550  INFO 16620 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-09-04 17:03:56.554  INFO 16620 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-09-04 17:03:56.556  INFO 16620 --- [http-nio-8080-exec-10] c.z.b.Controller.admin.LoginController   : =========={}null
+2021-09-04 17:06:32.597  INFO 16620 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-09-04 17:06:32.600  INFO 16620 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-09-04 17:06:32.707  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:06:32.707  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:06:32.936  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:06:32.937  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:06:32.937  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:06:32.962  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:06:32.962  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 253 ms
+2021-09-04 17:06:33.143  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:06:33.280  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:06:33.288  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:06:33.291  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.608 seconds (JVM running for 1202.055)
+2021-09-04 17:06:33.292  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:06:35.076  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:06:35.076  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:06:35.244  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:06:35.244  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:06:35.245  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:06:35.266  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:06:35.267  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 190 ms
+2021-09-04 17:06:35.413  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:06:35.526  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:06:35.533  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:06:35.536  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.478 seconds (JVM running for 1204.3)
+2021-09-04 17:06:35.537  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:06:37.882  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 17:06:37.883  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 17:06:37.883  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 17:06:41.011  INFO 16620 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-09-04 17:06:41.014  INFO 16620 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-09-04 17:06:41.015  INFO 16620 --- [http-nio-8080-exec-10] c.z.b.Controller.admin.LoginController   : ==========null
+2021-09-04 17:07:25.107  INFO 16620 --- [http-nio-8080-exec-8] c.z.b.Controller.admin.LoginController   : ==========null
+2021-09-04 17:08:35.341  INFO 16620 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-09-04 17:08:35.343  INFO 16620 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2021-09-04 17:08:35.411  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:08:35.411  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:08:35.592  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:08:35.592  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:08:35.592  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:08:35.604  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:08:35.604  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 192 ms
+2021-09-04 17:08:35.741  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:08:35.845  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:08:35.851  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:08:35.854  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.46 seconds (JVM running for 1324.618)
+2021-09-04 17:08:35.855  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:08:37.582  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:08:37.582  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:08:37.742  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:08:37.742  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:08:37.742  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:08:37.753  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:08:37.753  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 170 ms
+2021-09-04 17:08:37.880  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:08:37.980  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:08:37.985  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:08:37.988  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.42 seconds (JVM running for 1326.752)
+2021-09-04 17:08:37.988  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:08:38.009  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 17:08:38.009  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 17:08:38.009  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 17:09:01.432  INFO 16620 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2021-09-04 17:09:01.435  INFO 16620 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2021-09-04 17:09:01.437  INFO 16620 --- [http-nio-8080-exec-3] c.z.b.Controller.admin.LoginController   : ==========null
+2021-09-04 17:10:30.758  INFO 16620 --- [http-nio-8080-exec-5] c.z.b.Controller.admin.LoginController   : ==========null
+2021-09-04 17:10:34.942  INFO 16620 --- [http-nio-8080-exec-4] c.z.b.Controller.admin.LoginController   : ==========null
+2021-09-04 17:10:49.952  INFO 16620 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2021-09-04 17:10:49.953  INFO 16620 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2021-09-04 17:10:50.031  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:10:50.031  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:10:50.190  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:10:50.190  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:10:50.190  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:10:50.201  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:10:50.201  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 169 ms
+2021-09-04 17:10:50.329  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:10:50.434  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:10:50.441  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:10:50.443  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.428 seconds (JVM running for 1459.206)
+2021-09-04 17:10:50.443  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:10:50.750  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 17:10:50.750  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 17:10:50.751  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-04 17:10:53.465  INFO 16620 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2021-09-04 17:10:53.468  INFO 16620 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2021-09-04 17:10:53.469  INFO 16620 --- [http-nio-8080-exec-10] c.z.b.Controller.admin.LoginController   : ==========null
+2021-09-04 17:13:04.478  INFO 16620 --- [Thread-46] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2021-09-04 17:13:04.480  INFO 16620 --- [Thread-46] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2021-09-04 17:13:04.560  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:13:04.561  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:13:04.732  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:13:04.732  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:13:04.732  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:13:04.744  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:13:04.744  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 182 ms
+2021-09-04 17:13:04.880  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:13:04.988  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:13:04.996  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:13:04.999  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.454 seconds (JVM running for 1593.763)
+2021-09-04 17:13:05.000  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:13:06.682  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:13:06.682  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:13:06.828  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:13:06.829  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:13:06.829  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:13:06.850  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:13:06.850  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 167 ms
+2021-09-04 17:13:06.977  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:13:07.073  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:13:07.079  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:13:07.086  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.418 seconds (JVM running for 1595.85)
+2021-09-04 17:13:07.086  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:13:07.137  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 17:13:07.138  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 17:13:07.138  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 17:15:37.352  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:15:37.352  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:15:37.535  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:15:37.536  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:15:37.536  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:15:37.547  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:15:37.547  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 194 ms
+2021-09-04 17:15:37.684  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:15:37.794  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:15:37.800  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:15:37.803  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.465 seconds (JVM running for 1746.567)
+2021-09-04 17:15:37.803  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:15:38.662  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 17:15:38.663  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 17:15:38.663  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 17:15:39.497  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:15:39.497  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:15:39.644  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:15:39.645  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:15:39.645  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:15:39.656  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:15:39.656  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 158 ms
+2021-09-04 17:15:39.784  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:15:39.879  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:15:39.885  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:15:39.888  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.404 seconds (JVM running for 1748.651)
+2021-09-04 17:15:39.888  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:15:45.556  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 17:15:45.556  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 17:15:45.557  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-04 17:16:11.391  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 16620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:16:11.392  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:16:11.541  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:16:11.541  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:16:11.541  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:16:11.564  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:16:11.564  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 172 ms
+2021-09-04 17:16:11.700  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:16:11.799  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:16:11.805  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:16:11.807  INFO 16620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.43 seconds (JVM running for 1780.572)
+2021-09-04 17:16:11.808  INFO 16620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:16:19.008  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 17:16:19.008  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 17:16:19.009  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-04 17:17:30.867  INFO 16620 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2021-09-04 17:17:30.869  INFO 16620 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2021-09-04 17:17:30.870  INFO 16620 --- [http-nio-8080-exec-3] c.z.b.Controller.admin.LoginController   : ==========null
+2021-09-04 17:21:31.523  INFO 16620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2021-09-04 17:21:31.524  INFO 16620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2021-09-04 17:21:34.823  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 12620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:21:34.825  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:21:34.853  INFO 12620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-04 17:21:34.853  INFO 12620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-04 17:21:35.570  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:21:35.575  INFO 12620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:21:35.576  INFO 12620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:21:35.622  INFO 12620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:21:35.622  INFO 12620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 769 ms
+2021-09-04 17:21:36.026  INFO 12620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:21:36.236  INFO 12620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:21:36.259  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:21:36.266  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 1.7 seconds (JVM running for 2.257)
+2021-09-04 17:21:39.343  INFO 12620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 17:21:39.343  INFO 12620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 17:21:39.344  INFO 12620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-04 17:21:55.108  INFO 12620 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-04 17:21:55.173  INFO 12620 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-04 17:22:03.770 ERROR 12620 --- [http-nio-8080-exec-10] c.z.blog.exception.MyExceptionHandle     : logger-request urihttp://localhost:8080/admin/blogs,exception-{}
+
+org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type Integer is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:218) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:193) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:170) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) [tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) [tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2021-09-04 17:22:03.771 ERROR 12620 --- [http-nio-8080-exec-10] c.z.blog.exception.MyExceptionHandle     : log-request url/admin/blogs,exception-Required request parameter 'id' for method parameter type Integer is not present
+2021-09-04 17:22:03.772  WARN 12620 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type Integer is not present]
+2021-09-04 17:22:27.817  INFO 12620 --- [http-nio-8080-exec-1] c.z.b.Controller.admin.BlogController    : id的值
+2021-09-04 17:22:39.249  INFO 12620 --- [http-nio-8080-exec-7] c.z.b.Controller.admin.BlogController    : id的值
+2021-09-04 17:22:47.506  INFO 12620 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-04 17:22:47.510  INFO 12620 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-04 17:22:47.615  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 12620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 17:22:47.616  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 17:22:47.791  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 17:22:47.792  INFO 12620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 17:22:47.792  INFO 12620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 17:22:47.805  INFO 12620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 17:22:47.805  INFO 12620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 188 ms
+2021-09-04 17:22:47.945  INFO 12620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 17:22:48.059  INFO 12620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 17:22:48.067  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 17:22:48.070  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.474 seconds (JVM running for 74.06)
+2021-09-04 17:22:48.071  INFO 12620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 17:22:51.572  INFO 12620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 17:22:51.573  INFO 12620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 17:22:51.573  INFO 12620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 17:22:51.574  INFO 12620 --- [http-nio-8080-exec-1] c.z.b.Controller.admin.BlogController    : id的值123
+2021-09-04 19:24:53.632  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 12620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 19:24:53.632  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 19:24:53.830  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 19:24:53.831  INFO 12620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 19:24:53.831  INFO 12620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 19:24:53.843  INFO 12620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 19:24:53.844  INFO 12620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 211 ms
+2021-09-04 19:24:54.002  INFO 12620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 19:24:54.119  INFO 12620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 19:24:54.126  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 19:24:54.128  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.518 seconds (JVM running for 7400.119)
+2021-09-04 19:24:54.129  INFO 12620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 19:24:55.866  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 12620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 19:24:55.866  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 19:24:56.013  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 19:24:56.013  INFO 12620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 19:24:56.013  INFO 12620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 19:24:56.026  INFO 12620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 19:24:56.026  INFO 12620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 159 ms
+2021-09-04 19:24:56.162  INFO 12620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 19:24:56.257  INFO 12620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 19:24:56.265  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 19:24:56.267  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.418 seconds (JVM running for 7402.257)
+2021-09-04 19:24:56.268  INFO 12620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 19:37:12.886  INFO 12620 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 19:37:12.886  INFO 12620 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 19:37:12.887  INFO 12620 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-04 19:38:50.603  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 12620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 19:38:50.604  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 19:38:50.777  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 19:38:50.777  INFO 12620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 19:38:50.778  INFO 12620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 19:38:50.789  INFO 12620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 19:38:50.790  INFO 12620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 185 ms
+2021-09-04 19:38:50.935  INFO 12620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 19:38:51.042  INFO 12620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 19:38:51.049  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 19:38:51.051  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.464 seconds (JVM running for 8237.042)
+2021-09-04 19:38:51.052  INFO 12620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 19:38:52.754  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_181 on LAPTOP-QJNA9I26 with PID 12620 (E:\javadev\blog\target\classes started by zhou in E:\javadev\blog)
+2021-09-04 19:38:52.754  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : The following profiles are active: dev
+2021-09-04 19:38:52.892  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-04 19:38:52.892  INFO 12620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-04 19:38:52.892  INFO 12620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-04 19:38:52.903  INFO 12620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-04 19:38:52.904  INFO 12620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 149 ms
+2021-09-04 19:38:53.039  INFO 12620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-04 19:38:53.133  INFO 12620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-04 19:38:53.139  INFO 12620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-04 19:38:53.141  INFO 12620 --- [restartedMain] com.zhouchb.blog.BlogApplication         : Started BlogApplication in 0.403 seconds (JVM running for 8239.131)
+2021-09-04 19:38:53.142  INFO 12620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-04 19:38:57.610  INFO 12620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 19:38:57.611  INFO 12620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-04 19:38:57.611  INFO 12620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-04 19:39:09.299  INFO 12620 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-09-04 19:39:09.304  INFO 12620 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-09-04 20:44:33.755  INFO 12620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-09-04 20:44:33.758  INFO 12620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
