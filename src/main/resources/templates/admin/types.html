@@ -48,6 +48,11 @@
 
 <div class="m-padded-tb-larges m-container-small">
     <div class="ui container">
+        <div class="ui success message" th:unless="${#strings.isEmpty(addTypeMessage)}">
+            <i class="close icon"></i>
+            <h2 class="header">提示：</h2>
+            <p th:text="${addTypeMessage}" >恭喜，操作成功</p>
+        </div>
         <table class="ui table celled center aligned">
             <thead>
             <tr>
@@ -57,12 +62,12 @@
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>1</td>
-                <td>可以练习清单</td>
+            <tr th:each="type,iterStat : ${pageinfo.list}">
+                <td th:text="${iterStat.count}">1</td>
+                <td th:text="${type.name}">可以练习清单</td>
                 <td>
-                    <a href="#" class="ui font-blue mini button"><span style="color: white">编辑</span></a>
-                    <a href="#" class="ui red mini button">删除</a>
+                    <a href="#"  th:href="@{/admin/types/{id}/input(id=${type.id})}" class="ui font-blue mini button"><span style="color: white">编辑</span></a>
+                    <a href="#" th:href="@{/admin/types/{id}/delete(id=${type.id})}" class="ui red mini button">删除</a>
                 </td>
             </tr>
             </tbody>
@@ -70,10 +75,10 @@
             <tr>
                 <th colspan="6">
                     <div class="ui pagination mini menu">
-                        <a href="#" class="item">上一页</a>
-                        <a href="#" class="item">下一页</a>
+                        <a href="#" th:href="@{/admin/types(pn=${pageinfo.pageNum}-1)}" th:classappend="${pageinfo.isFirstPage}?'disabled'" class="item ">上一页</a>
+                        <a href="#" th:href="@{/admin/types(pn=${pageinfo.pageNum}+1)}" th:classappend="${pageinfo.isLastPage}?'disabled'" class="item">下一页</a>
                     </div>
-                    <a href="" class="ui mini right floated teal basic button">新增</a>
+                    <a href="#" th:href="@{/admin/types/type_release}" class="ui mini right floated teal basic button">新增</a>
                 </th>
             </tr>
             </tfoot>
@@ -137,6 +142,14 @@
 <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"/>-->
 <script src="../../static/js/jquery.min.js" th:src="@{/js/jquery.min.js}"></script>
 <script src="../../static/js/semantic.min.js" th:src="@{/js/semantic.min.js}"></script>
+<script>
+    /*关闭消息提示*/
+    $('.message .close').on('click',function () {
+        $(this)
+        .closest('.message')
+        .transition('fade');
+    });
+</script>
 <!--<script>
     $('.menu.toggle').click(function () {
         $('.m-item').toggleClass('m-mobile-hide');

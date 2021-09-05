@@ -2,17 +2,19 @@ package com.zhouchb.blog.Controller.admin;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import com.zhouchb.blog.bean.Type;
 import com.zhouchb.blog.service.TypesService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.naming.Binding;
+import javax.validation.Valid;
 import java.util.List;
 
 /**
@@ -28,7 +30,7 @@ public class TypesController {
     @Autowired
     private TypesService typesService;
 
-    @GetMapping
+    @GetMapping("/types")
     public String types(@RequestParam(value = "pn",defaultValue =" 1")Integer pn, Model model){
         //传入页码，和一页显示多少
         PageHelper.startPage(pn,6);
@@ -38,4 +40,34 @@ public class TypesController {
         model.addAttribute("pageinfo",typePageInfo);
         return "admin/types";
     }
+    @GetMapping("/types/type_release")
+    public String typeRelease(Model model){
+        model.addAttribute("type",new Type());
+        return "admin/type_release";
+    }
+
+    @PostMapping("/types")
+    public String typesPost(@Valid Type type, BindingResult binding, RedirectAttributes redirectAttributes){
+        Type typeByName = typesService.getTypeByName(type.getName());
+        if (typeByName != null){
+            binding.rejectValue("name","Error","彬哥类型名已经存在了");
+        }
+        if (binding.hasErrors()){
+          return "admin/type_release";
+      }
+        int i = typesService.saveType(type);
+        if (i>0){
+            redirectAttributes.addFlashAttribute("addTypeMessage", "恭喜恭喜！类型添加成功！");
+        }else {
+            redirectAttributes.addFlashAttribute("addTypeMessage", "哎呀呀！添加失败失败了呀！");
+        }
+        return "redirect:/admin/types";
+    }
+
+    //编辑
+   @GetMapping("/types/{id}/input")
+    public String typeEdit(@PathVariable("id") Long id,Model model){
+        model.addAttribute("type",typesService.getType(id));
+        return "admin/type_release";
+   }
 }

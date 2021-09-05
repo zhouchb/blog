@@ -13,13 +13,20 @@ import java.util.List;
  */
 public interface TypesService {
     //新增
-    int saveType(Type type);
+    public int saveType(Type type);
+
     //查找
-    Type getType(Long id);
-    List<Type> listType();
+    public Type getType(Long id);
+
+    public List<Type> listType();
+
     //更新
-    int updateType(Long id,Type type);
+    public int updateType(Long id, Type type);
+
     //删除
-    void deleteType(Long id);
+    public void deleteType(Long id);
+
+    //根据用户查询
+    Type getTypeByName(String name);
 
 }

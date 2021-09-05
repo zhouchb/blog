@@ -15,8 +15,7 @@
     </select>
     <!--    List<Type> listType();-->
     <select id="listType" resultType="Type">
-        select *
-        from t_type;
+        select * from t_type
     </select>
     <!--    //更新-->
     <!--    int updateTypeDao(Long id);-->
@@ -33,4 +32,9 @@
         where id = #{id}
     </delete>
 
+   <!-- //根据名字获取type
+    public Type getTypeByName(String name);-->
+    <select id="getTypeByName" resultType="Type">
+        select * from t_type where name = #{name}
+    </select>
 </mapper>

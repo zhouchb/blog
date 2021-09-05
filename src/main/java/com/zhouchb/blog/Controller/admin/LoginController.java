@@ -58,4 +58,8 @@ public class LoginController {
     public String toRelease(){
         return "admin/release";
     }
+    @GetMapping("/index")
+    public String toAdminIndex(){
+        return "admin/index";
+    }
 }

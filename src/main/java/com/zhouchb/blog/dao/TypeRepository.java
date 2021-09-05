@@ -23,4 +23,6 @@ public interface TypeRepository {
     //删除
     public void deleteTypeDao(Long id);
 
+    //根据名字获取type
+    public Type getTypeByName(String name);
 }

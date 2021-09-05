@@ -1,5 +1,7 @@
 package com.zhouchb.blog.bean;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,6 +12,8 @@ import java.util.List;
  */
 public class Type {
     private Long id;
+    @NotBlank(message = "分类名称不能为空")
+/*    @NotEmpty(message = "分类名称不能为空")*/
     private String name;
     //多篇博客
     private List<Blog> blogs = new ArrayList<>();
