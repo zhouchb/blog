@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhouchb.blog.dao.TypeRepository">
+    <!--    //新增-->
+    <!--    int saveTypeDao(Type type);-->
+    <insert id="saveTypeDao" parameterType="Type">
+        insert into t_type(name) value (#{name})
+    </insert>
+    <!--    //查找-->
+    <!--    Type getTypeDao(Long id);-->
+    <select id="getTypeDao" resultType="Type">
+        select *
+        from t_type
+        where id = #{id}
+    </select>
+    <!--    List<Type> listType();-->
+    <select id="listType" resultType="Type">
+        select *
+        from t_type;
+    </select>
+    <!--    //更新-->
+    <!--    int updateTypeDao(Long id);-->
+    <update id="updateTypeDao">
+        update t_type
+        set name = #{type.name}
+        where id = #{id}
+    </update>
+    <!--    //删除-->
+    <!--    void deleteTypeDao(Long id);-->
+    <delete id="deleteTypeDao" parameterType="Long">
+        delete
+        from t_type
+        where id = #{id}
+    </delete>
+
+</mapper>
