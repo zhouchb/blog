@@ -1,7 +1,9 @@
 package com.zhouchb.blog.service.impl;
 
 import com.zhouchb.blog.bean.Type;
+import com.zhouchb.blog.dao.TypeRepository;
 import com.zhouchb.blog.service.TypesService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,28 +15,35 @@ import java.util.List;
  */
 @Service
 public class TypeServiceImpl implements TypesService {
+    @Autowired
+    private TypeRepository typeRepository;
+
     @Override
     public int saveType(Type type) {
-        return 0;
+        int i = typeRepository.saveTypeDao(type);
+        return i;
     }
 
     @Override
     public Type getType(Long id) {
-        return null;
+        Type type = typeRepository.getTypeDao(id);
+        return type;
     }
 
     @Override
     public List<Type> listType() {
-        return null;
+        List<Type> types = typeRepository.listType();
+        return types;
     }
 
     @Override
-    public int updateType(Long id) {
-        return 0;
+    public int updateType(Long id, Type type) {
+        int i = typeRepository.updateTypeDao(id, type);
+        return i;
     }
 
     @Override
     public void deleteType(Long id) {
-
+        typeRepository.deleteTypeDao(id);
     }
 }

@@ -18,7 +18,7 @@ public interface TypesService {
     Type getType(Long id);
     List<Type> listType();
     //更新
-    int updateType(Long id);
+    int updateType(Long id,Type type);
     //删除
     void deleteType(Long id);
 
