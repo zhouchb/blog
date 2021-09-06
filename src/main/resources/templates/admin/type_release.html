@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Blog后台管理</title>
+    <title>分类管理</title>
     <!--    <link rel="stylesheet" href="css/semantic.min.css">-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <link rel="stylesheet" href="../../static/css/me.css" th:href="@{/css/me.css}">
@@ -41,8 +41,8 @@
 <div class="ui attached pointing menu">
     <div class="ui container">
         <div class="right menu">
-            <a href="#" class="teal active item">发布</a>
-            <a href="#" class="item">列表</a>
+            <a href="#" class="teal active item" th:href="@{/admin/types/type_release}">发布</a>
+            <a href="#" class="item" th:href="@{/admin/types}">列表</a>
         </div>
     </div>
 </div>
@@ -51,7 +51,7 @@
 <br>
 <div class="m-padded-tb-larges m-container-small">
     <div class="ui container">
-        <form action="#" method="post" th:action="@{/admin/types}" th:object="${type}" class="ui form">
+        <form action="#" method="post"th:object="${type}" th:action="*{id}==null ? @{/admin/types} : @{/admin/types/{id}(id=*{id})}"  class="ui form">
             <div class="required field"><!--required-->
                 <div class="ui left labeled input">
                     <label  class="ui teal basic label">名称</label>
@@ -134,6 +134,12 @@
 <script src="../../static/js/my.js" th:src="@{/js/my.js}"></script>
 <script src="../../static/lib/editormd/editormd.min.js" th:src="@{/lib/editormd/editormd.min.js}"></script>
 <script>
+    /*关闭消息提示*/
+    $('.message .close').on('click',function () {
+        $(this)
+            .closest('.message')
+            .transition('fade');
+    });
     /*后台管理表单 上面加属性required*/
     $('.ui.form').form({
         fields : {

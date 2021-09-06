@@ -39,8 +39,8 @@
 <div class="ui attached pointing menu">
     <div class="ui container">
         <div class="right menu">
-            <a href="release.html" th:href="@{/admin/release}" class="item">发布</a>
-            <a href="blogs.html" th:href="@{/admin/blogs}" class="teal active item">列表</a>
+            <a href="release.html" th:href="@{/admin/types/type_release}" class="item">发布</a>
+            <a href="blogs.html" th:href="@{/admin/types}" class="teal active item">列表</a>
         </div>
     </div>
 </div>
@@ -48,10 +48,10 @@
 
 <div class="m-padded-tb-larges m-container-small">
     <div class="ui container">
-        <div class="ui success message" th:unless="${#strings.isEmpty(addTypeMessage)}">
+        <div class="ui success message" th:unless="${#strings.isEmpty(TypeMessage)}">
             <i class="close icon"></i>
             <h2 class="header">提示：</h2>
-            <p th:text="${addTypeMessage}" >恭喜，操作成功</p>
+            <p th:text="${TypeMessage}" >恭喜，操作成功</p>
         </div>
         <table class="ui table celled center aligned">
             <thead>
@@ -63,12 +63,13 @@
             </thead>
             <tbody>
             <tr th:each="type,iterStat : ${pageinfo.list}">
+                <td id="typeId" style="display: none!important;" th:text="${type.id}"></td>
                 <td th:text="${iterStat.count}">1</td>
                 <td th:text="${type.name}">可以练习清单</td>
                 <td>
                     <a href="#"  th:href="@{/admin/types/{id}/input(id=${type.id})}" class="ui font-blue mini button"><span style="color: white">编辑</span></a>
-                    <a href="#" th:href="@{/admin/types/{id}/delete(id=${type.id})}" class="ui red mini button">删除</a>
-                </td>
+                    <a href="#"  class="ui remove red mini button">删除</a>
+                </td><!--th:href="@{/admin/types/{id}/delete(id=${type.id})}"-->
             </tr>
             </tbody>
             <tfoot>
@@ -89,6 +90,21 @@
 <br>
 <br>
 <br>
+<div class="ui mini modal">
+    <div class="header">确认删除吗</div>
+    <div class="content" style="text-align: center !important;">
+        <span>确认删除- </span>
+        <span id="typeName" style="color: teal!important;">就是玩 </span>
+        <span id="type-id" style="display: none !important;"> 就是玩</span>
+        <span> -吗？</span>
+    </div>
+    <div class="actions">
+        <div class="ui olive basic cancel  button">
+            <i class="remove icon"></i>取消</div>
+        <div class="ui red ok inverted button" >
+            <i class="checkmark icon"></i><a class="fluid" id="delType" style="color: red">确认</a> </div>
+    </div>
+</div>
 <br>
 <br>
 <br>
@@ -149,6 +165,29 @@
         .closest('.message')
         .transition('fade');
     });
+/*获取id*/
+$('.remove').on('click',function () {
+    var type_name = $(this).parents("td").parents("tr").find("td:eq(2)").text();
+    document.getElementById("typeName").innerHTML=type_name;
+    var type_id = $(this).parents("td").parents("tr").find("td:eq(0)").text();
+    document.getElementById("type-id").innerHTML=type_id;
+    $('.ui.mini.modal').modal('show');
+
+
+})
+/*    删除*/
+ $('#delType').on('click',function () {
+   //  var type_id = $(this).parents("td").parents("tr").find("td:eq(0)").text();
+    var id = document.getElementById("type-id").textContent;
+     $.ajax({
+         url: "/admin/types/del/"+id,
+         type: "GET",
+         success:function (result) {
+             window.location.reload();
+             console.log(result)
+         }
+     })
+ })
 </script>
 <!--<script>
     $('.menu.toggle').click(function () {
@@ -157,5 +196,6 @@
 </script>-->
 <script src="../../static/js/my.js" th:src="@{/js/my.js}"></script>
 <!--<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>-->
+
 </body>
 </html>

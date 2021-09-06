@@ -45,7 +45,7 @@ public class TypesController {
         model.addAttribute("type",new Type());
         return "admin/type_release";
     }
-
+//新增
     @PostMapping("/types")
     public String typesPost(@Valid Type type, BindingResult binding, RedirectAttributes redirectAttributes){
         Type typeByName = typesService.getTypeByName(type.getName());
@@ -57,17 +57,44 @@ public class TypesController {
       }
         int i = typesService.saveType(type);
         if (i>0){
-            redirectAttributes.addFlashAttribute("addTypeMessage", "恭喜恭喜！类型添加成功！");
+            redirectAttributes.addFlashAttribute("TypeMessage", "恭喜恭喜！类型添加成功！");
         }else {
-            redirectAttributes.addFlashAttribute("addTypeMessage", "哎呀呀！添加失败失败了呀！");
+            redirectAttributes.addFlashAttribute("TypeMessage", "哎呀呀！添加失败失败了呀！");
         }
         return "redirect:/admin/types";
     }
 
+    @PostMapping("/types/{id}")
+    public String typesUpdatePost(@Valid Type type, BindingResult binding,@PathVariable Long id, RedirectAttributes redirectAttributes){
+        Type typeByName = typesService.getTypeByName(type.getName());
+
+        if (typeByName != null){
+            binding.rejectValue("name","Error","彬哥类型名已经存在了");
+        }
+        //判定输入name是否为空，出现error
+        if (binding.hasErrors()){
+            return "admin/type_release";
+        }
+        int i = typesService.updateType(id,type);
+        if (i>0){
+            redirectAttributes.addFlashAttribute("TypeMessage", "恭喜恭喜！类型更新成功！");
+        }else {
+            redirectAttributes.addFlashAttribute("TypeMessage", "哎呀呀！更新失败失败了呀！");
+        }
+        return "redirect:/admin/types";
+    }
     //编辑
    @GetMapping("/types/{id}/input")
     public String typeEdit(@PathVariable("id") Long id,Model model){
         model.addAttribute("type",typesService.getType(id));
         return "admin/type_release";
    }
+   @ResponseBody
+   @GetMapping("/types/del/{id}")
+    public String ajaxTest(@PathVariable("id")Long id){
+        log.info("我执行了"+id);
+      typesService.deleteType(id);
+       return "删除成功";
+   }
+
 }
