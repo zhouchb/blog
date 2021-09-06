@@ -2272,3 +2272,5 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2021-09-06 22:54:46.268  INFO 15404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-09-06 22:54:46.268  INFO 15404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-09-06 22:54:46.269  INFO 15404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-06 23:09:03.430  INFO 15404 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-15} closing ...
+2021-09-06 23:09:03.431  INFO 15404 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-15} closed
