@@ -6,4 +6,8 @@
     <select id="getNameAndPasswordDao" resultType="com.zhouchb.blog.bean.User">
         SELECT * FROM t_user WHERE `username`=#{username} AND `password`=#{password};
     </select>
+<!--    public User getNameById(Long id);-->
+    <select id="getNameById" resultType="User">
+        select * from t_user where id = #{id}
+    </select>
 </mapper>

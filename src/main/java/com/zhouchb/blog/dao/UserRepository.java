@@ -15,5 +15,5 @@ import javax.websocket.server.PathParam;
 @Mapper
 public interface UserRepository {
     public User getNameAndPasswordDao(@Param("username") String username, @Param("password") String password);
-
+    public User getNameById(Long id);
 }

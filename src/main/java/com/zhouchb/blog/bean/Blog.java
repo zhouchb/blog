@@ -27,10 +27,12 @@ public class Blog {
     private Date updateTime;
     //类型
     private Type type;
+    private Long typeId;
     //标签
     private List<Tag> tags = new ArrayList<>();
     //用户
     private User user;
+    private Long userId;
     //评论
     private List<Comment> comments = new ArrayList<>();
     public Blog() {
@@ -50,6 +52,22 @@ public class Blog {
         this.recommend = recommend;
         this.createTime = createTime;
         this.updateTime = updateTime;
+    }
+
+    public Long getTypeId() {
+        return typeId;
+    }
+
+    public void setTypeId(Long typeId) {
+        this.typeId = typeId;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 
     public List<Comment> getComments() {
